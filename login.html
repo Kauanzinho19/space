@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Stylos --> 
+    <link rel="stylesheet" href="css/login.css">
+    <!--titulo -->
+    <title>Login Space Games</title>
+</head>
+<body>
+    <!--Estrutura do login -->
+    <form class="form-sign" action="logar.php" method="POST">
+    <div class="main-login">
+      <div class="left-login">
+          <h1>Faça Login<br>ou se cadastra-se</h1>
+          <img src="images/pc.svg" alt="PC anim">
+      </div>
+      <div class="right-login">
+           <div class="card-login">
+               <h1>Iniciar sessão</h1>
+               
+              <div class="textfield" >
+                  <label for="Email">Email</label>
+                  <input type="email" name="email" placeholder= "Email">
+              </div>
+              <div class="textfield" >
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder= "Senha">
+            </div>
+            <button class="btn-login" onclick="window.location.href='index.html'">Login</button>
+       
+            <!--<button class="btn-login" onclick="window.location.href='cadastro.html'">Cadastre-se</button>-->
+            <p>Ainda não tem uma conta? <a href="cadastro.html">Criar conta</a><p>
+          </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
+
+<!--Developed by Kauan Sabino-->
